@@ -1,0 +1,11 @@
+﻿  TCI2.cpp
+C:\Users\D4rkn\source\repos\TCI2\TCI2\TCI2.cpp(1,10): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\D4rkn\source\repos\TCI2\TCI2\TCI2.cpp(1,4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "f_var2"
+C:\Users\D4rkn\source\repos\TCI2\TCI2\TCI2.cpp(2,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\D4rkn\source\repos\TCI2\TCI2\TCI2.cpp(2,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\D4rkn\source\repos\TCI2\TCI2\TCI2.cpp(36,12): error C2065: LC_ALL: необъявленный идентификатор
+C:\Users\D4rkn\source\repos\TCI2\TCI2\TCI2.cpp(36,2): error C3861: setlocale: идентификатор не найден
+C:\Users\D4rkn\source\repos\TCI2\TCI2\TCI2.cpp(39,11): error C3861: GetTableTrue: идентификатор не найден
+C:\Users\D4rkn\source\repos\TCI2\TCI2\TCI2.cpp(40,2): error C3861: fun: идентификатор не найден
+C:\Users\D4rkn\source\repos\TCI2\TCI2\TCI2.cpp(46,12): error C3861: GetTableTrue2: идентификатор не найден
+C:\Users\D4rkn\source\repos\TCI2\TCI2\TCI2.cpp(47,2): error C3861: fun2: идентификатор не найден

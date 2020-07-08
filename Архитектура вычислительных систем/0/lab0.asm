@@ -1,0 +1,21 @@
+.386
+.MODEL FLAT, STDCALL
+OPTION CASEMAP: NONE
+.DATA
+	str1 DB "Hello, World!", 13, 10, 0
+	a DB 50
+      arr DW 10, 15, 20
+	b DD 10
+	c1 DD 3500
+	d DQ 15, 16, 17
+.CODE
+START:
+	MOV AL, a
+	MOV ESI, 0
+	XOR EBX, EBX
+	MOV BX, arr[0]
+	ADD BX, arr[2]
+	ADD BX, arr[4]
+	MOV EAX, b
+	MOV EDX, c1
+END START

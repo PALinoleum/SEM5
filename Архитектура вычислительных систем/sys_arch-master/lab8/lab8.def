@@ -1,0 +1,7 @@
+LIBRARY lab8
+EXPORTS
+_func_stdcall@20 = _func_stdcall@0
+func_cdecl
+@func_fastcall@20 = _func_fastcall@0 
+_func_stdcall_var@20
+func_cdecl_var

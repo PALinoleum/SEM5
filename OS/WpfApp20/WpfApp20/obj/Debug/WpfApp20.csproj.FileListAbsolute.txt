@@ -1,0 +1,42 @@
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\bin\Debug\WpfApp20.exe.config
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\bin\Debug\WpfApp20.exe
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\bin\Debug\WpfApp20.pdb
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Debug\MainWindow.g.cs
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Debug\App.g.cs
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Debug\WpfApp20_MarkupCompile.cache
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Debug\WpfApp20_MarkupCompile.lref
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Debug\MainWindow.baml
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Debug\WpfApp20.g.resources
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Debug\WpfApp20.Properties.Resources.resources
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Debug\WpfApp20.csproj.GenerateResource.cache
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Debug\WpfApp20.exe
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Debug\WpfApp20.pdb
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Debug\WpfApp20.csprojAssemblyReference.cache
+C:\Users\D4rkn\Desktop\OS\WpfApp20 — копия\WpfApp20\bin\Debug\WpfApp20.exe.config
+C:\Users\D4rkn\Desktop\OS\WpfApp20 — копия\WpfApp20\bin\Debug\WpfApp20.exe
+C:\Users\D4rkn\Desktop\OS\WpfApp20 — копия\WpfApp20\bin\Debug\WpfApp20.pdb
+C:\Users\D4rkn\Desktop\OS\WpfApp20 — копия\WpfApp20\obj\Debug\WpfApp20.csprojAssemblyReference.cache
+C:\Users\D4rkn\Desktop\OS\WpfApp20 — копия\WpfApp20\obj\Debug\MainWindow.g.cs
+C:\Users\D4rkn\Desktop\OS\WpfApp20 — копия\WpfApp20\obj\Debug\App.g.cs
+C:\Users\D4rkn\Desktop\OS\WpfApp20 — копия\WpfApp20\obj\Debug\WpfApp20_MarkupCompile.cache
+C:\Users\D4rkn\Desktop\OS\WpfApp20 — копия\WpfApp20\obj\Debug\WpfApp20_MarkupCompile.lref
+C:\Users\D4rkn\Desktop\OS\WpfApp20 — копия\WpfApp20\obj\Debug\MainWindow.baml
+C:\Users\D4rkn\Desktop\OS\WpfApp20 — копия\WpfApp20\obj\Debug\WpfApp20.g.resources
+C:\Users\D4rkn\Desktop\OS\WpfApp20 — копия\WpfApp20\obj\Debug\WpfApp20.Properties.Resources.resources
+C:\Users\D4rkn\Desktop\OS\WpfApp20 — копия\WpfApp20\obj\Debug\WpfApp20.csproj.GenerateResource.cache
+C:\Users\D4rkn\Desktop\OS\WpfApp20 — копия\WpfApp20\obj\Debug\WpfApp20.exe
+C:\Users\D4rkn\Desktop\OS\WpfApp20 — копия\WpfApp20\obj\Debug\WpfApp20.pdb
+C:\Users\D4rkn\Desktop\OS\WpfApp20\WpfApp20\bin\Debug\WpfApp20.exe.config
+C:\Users\D4rkn\Desktop\OS\WpfApp20\WpfApp20\bin\Debug\WpfApp20.exe
+C:\Users\D4rkn\Desktop\OS\WpfApp20\WpfApp20\bin\Debug\WpfApp20.pdb
+C:\Users\D4rkn\Desktop\OS\WpfApp20\WpfApp20\obj\Debug\WpfApp20.csprojAssemblyReference.cache
+C:\Users\D4rkn\Desktop\OS\WpfApp20\WpfApp20\obj\Debug\MainWindow.g.cs
+C:\Users\D4rkn\Desktop\OS\WpfApp20\WpfApp20\obj\Debug\App.g.cs
+C:\Users\D4rkn\Desktop\OS\WpfApp20\WpfApp20\obj\Debug\WpfApp20_MarkupCompile.cache
+C:\Users\D4rkn\Desktop\OS\WpfApp20\WpfApp20\obj\Debug\WpfApp20_MarkupCompile.lref
+C:\Users\D4rkn\Desktop\OS\WpfApp20\WpfApp20\obj\Debug\MainWindow.baml
+C:\Users\D4rkn\Desktop\OS\WpfApp20\WpfApp20\obj\Debug\WpfApp20.g.resources
+C:\Users\D4rkn\Desktop\OS\WpfApp20\WpfApp20\obj\Debug\WpfApp20.Properties.Resources.resources
+C:\Users\D4rkn\Desktop\OS\WpfApp20\WpfApp20\obj\Debug\WpfApp20.csproj.GenerateResource.cache
+C:\Users\D4rkn\Desktop\OS\WpfApp20\WpfApp20\obj\Debug\WpfApp20.exe
+C:\Users\D4rkn\Desktop\OS\WpfApp20\WpfApp20\obj\Debug\WpfApp20.pdb

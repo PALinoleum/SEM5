@@ -1,0 +1,37 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "qmake",
+            "type": "shell",
+            "command": "qmake"
+        },
+        {
+            "label": "make",
+            "type": "shell",
+            "windows": {
+                "command": "mingw32-make"
+            },
+            "command": "make"
+        },
+        {
+             "label": "run",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "qmake",
+                "make"
+            ],
+            "windows": {
+                "command": "./release/${workspaceFolderBasename}.exe"
+            },
+            "command": "./${workspaceFolderBasename}",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+﻿  lab6-TCI.cpp
+C:\Users\D4rkn\source\repos\lab6-TCI\lab6-TCI\lab6-TCI.cpp(12,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\D4rkn\source\repos\lab6-TCI\lab6-TCI\lab6-TCI.cpp(21,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\D4rkn\source\repos\lab6-TCI\lab6-TCI\lab6-TCI.cpp(42,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\D4rkn\source\repos\lab6-TCI\lab6-TCI\lab6-TCI.cpp(51,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\D4rkn\source\repos\lab6-TCI\lab6-TCI\lab6-TCI.cpp(60,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\D4rkn\source\repos\lab6-TCI\lab6-TCI\lab6-TCI.cpp(70,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\D4rkn\source\repos\lab6-TCI\lab6-TCI\lab6-TCI.cpp(72,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\D4rkn\source\repos\lab6-TCI\lab6-TCI\lab6-TCI.cpp(93,30): warning C4474: "scanf_s" : для строки формата передано слишком много аргументов
+C:\Users\D4rkn\source\repos\lab6-TCI\lab6-TCI\lab6-TCI.cpp(93,30): message : заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 3
+C:\Users\D4rkn\source\repos\lab6-TCI\lab6-TCI\lab6-TCI.cpp(132,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\D4rkn\source\repos\lab6-TCI\lab6-TCI\lab6-TCI.cpp(168,27): warning C4018: <: несоответствие типов со знаком и без знака
+  lab6-TCI.vcxproj -> C:\Users\D4rkn\source\repos\lab6-TCI\Debug\lab6-TCI.exe

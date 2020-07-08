@@ -1,0 +1,14 @@
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\bin\Release\WpfApp20.exe.config
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\bin\Release\WpfApp20.exe
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\bin\Release\WpfApp20.pdb
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Release\MainWindow.g.cs
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Release\App.g.cs
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Release\WpfApp20_MarkupCompile.cache
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Release\WpfApp20_MarkupCompile.lref
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Release\MainWindow.baml
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Release\WpfApp20.g.resources
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Release\WpfApp20.Properties.Resources.resources
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Release\WpfApp20.csproj.GenerateResource.cache
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Release\WpfApp20.exe
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Release\WpfApp20.pdb
+C:\Users\Alex\source\repos\WpfApp20\WpfApp20\obj\Release\WpfApp20.csprojAssemblyReference.cache

@@ -1,0 +1,34 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "masm compile",
+            "type": "shell",
+            "command": "wine c:/masm32/bin/ml.exe /c /coff ./${workspaceFolderBasename}.asm"
+        },
+        {
+            "label": "masm link",
+            "type": "shell",
+            "dependsOn": [
+                "masm compile"
+            ],
+            "command": "wine c:/masm32/bin/link.exe /SUBSYSTEM:CONSOLE /LIBPATH:c:/masm32/lib ./${workspaceFolderBasename}.obj "
+        },
+        {
+            "label": "masm debug",
+            "type": "shell",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "masm compile",
+                "masm link"
+            ],
+            "command": "wine c:/masm32/OLLYDBG.exe  ./${workspaceFolderBasename}.exe",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

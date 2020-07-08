@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\D4rkn\source\repos\OStest\OStest\Source.cpp(10,90): error C2664: "int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)": невозможно преобразовать аргумент 2 из "const wchar_t [15]" в "LPCSTR"
+C:\Users\D4rkn\source\repos\OStest\OStest\Source.cpp(10,19): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(9145,1): message : см. объявление "MessageBoxA"

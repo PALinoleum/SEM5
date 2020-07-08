@@ -1,0 +1,15 @@
+debug/main.o
+debug/system_info.o
+debug/colors.o
+debug/metrics.o
+debug/settings.o
+debug/etc.o
+debug/settings2.o
+debug/clock.o
+debug/moc_system_info.o
+debug/moc_colors.o
+debug/moc_metrics.o
+debug/moc_settings.o
+debug/moc_etc.o
+debug/moc_settings2.o
+debug/moc_clock.o

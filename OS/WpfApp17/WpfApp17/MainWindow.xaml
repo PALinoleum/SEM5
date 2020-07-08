@@ -1,0 +1,118 @@
+﻿<Window x:Class="WpfApp17.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp17"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        mc:Ignorable="d"
+        Title="Лабораторная работа №4" Height="611" Width="809" Initialized="Window_Initialized" ResizeMode="CanResize">
+    <Grid>
+        <TabControl x:Name="tabControl">
+            <TabItem Header="1 задание" BorderBrush="{x:Null}">
+                <Grid Background="White">
+                    <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="46,33,0,0" Text="ProcessorArchitecture" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="46,87,0,0" Text="PageSize" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="46,54,0,0" Text="Архитектура системы процессора.:
+" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" FontSize="8"/>
+                    <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="46,108,0,0" Text="Размер страницы и гранулярность страничной защиты и обязательства. Это размер страницы, используемый функцией VirtualAlloc." TextWrapping="Wrap" VerticalAlignment="Top" Width="241" FontSize="8"/>
+                    <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" Margin="46,154,0,0" Text="MinimumApplicationAddress" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" Margin="46,175,0,0" Text="Указатель на младший адрес памяти, доступный приложениям и библиотекам динамической компоновки (DLL)." TextWrapping="Wrap" VerticalAlignment="Top" Width="241" FontSize="8"/>
+                    <TextBlock x:Name="textBlock_Copy5" HorizontalAlignment="Left" Margin="46,207,0,0" Text="MaximumApplicationAddress" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="textBlock_Copy6" HorizontalAlignment="Left" Margin="46,228,0,0" Text="Указатель на старший адрес памяти, доступный приложениям и библиотекам динамической компоновки (DLL)." TextWrapping="Wrap" VerticalAlignment="Top" Width="241" FontSize="8"/>
+                    <TextBlock x:Name="textBlock_Copy7" HorizontalAlignment="Left" Margin="46,307,0,0" Text="ActiveProcessorMask" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="textBlock_Copy8" HorizontalAlignment="Left" Margin="46,328,0,0" Text="Маска, представляющая набор процессоров, сконфигурированных в системе. Нулевой бит – это процессор 0; 31 – это процессор номер 31." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="8" Height="35" Width="241"/>
+                    <TextBlock x:Name="textBlock_Copy9" HorizontalAlignment="Left" Margin="46,262,0,0" Text="NumberOfProcessors" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="textBlock_Copy10" HorizontalAlignment="Left" Margin="46,282,0,0" Text="Количество процессоров в системе." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="8"/>
+                    <TextBlock x:Name="textBlock_Copy11" HorizontalAlignment="Left" Margin="431,33,0,0" Text="ProcessorType" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="textBlock_Copy12" HorizontalAlignment="Left" Margin="431,54,0,0" Text="Устаревший член, который оставлен для совместимости с Windows NT 3.5 и Windows Me/98/95. Используйте члены wProcessorArchitecture, wProcessorLevel, и wProcessorRevision для получения типа процессора." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="8" Width="242"/>
+                    <TextBlock x:Name="textBlock_Copy13" HorizontalAlignment="Left" Margin="432,112,0,0" Text="AllocationGranularity" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="textBlock_Copy14" HorizontalAlignment="Left" Margin="432,133,0,0" Text="Гранулярность для начального адреса, в котором может быть выделена виртуальная память. Для получения большей информации, смотрите VirtualAlloc." TextWrapping="Wrap" VerticalAlignment="Top" Width="242" FontSize="8"/>
+                    <TextBlock x:Name="textBlock_Copy15" HorizontalAlignment="Left" Margin="431,171,0,0" Text="ProcessorLevel" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="textBlock_Copy16" HorizontalAlignment="Left" Margin="432,192,0,0" Text="Уровень архитектурно-зависимого прицессора системы. Это должно использоваться только для отображения соответствий. Для получения набора особенностей процессора, используйте функцию IsProcessorFeaturePresent." TextWrapping="Wrap" VerticalAlignment="Top" Width="241" FontSize="8"/>
+                    <TextBlock x:Name="textBlock_Copy17" HorizontalAlignment="Left" Margin="431,252,0,0" Text="ProcessorRevision" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="textBlock_Copy18" HorizontalAlignment="Left" Margin="431,268,0,0" Text="Ревизия архитектурно-зависимого процессора. Следующая таблица показывает, как значение ревизии подобрано к каждому типу архитектуры процессора." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="8" Width="242"/>
+                    <Label x:Name="infolabel1" Content="-" HorizontalAlignment="Left" Margin="292,33,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Width="108" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="{x:Null}" Foreground="#FF45AAF2"/>
+                    <Label x:Name="infolabel2" Content="-" HorizontalAlignment="Left" Margin="292,101,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Width="108" HorizontalContentAlignment="Center" Foreground="#FF45AAF2"/>
+                    <Label x:Name="infolabel3" Content="-" HorizontalAlignment="Left" Margin="292,160,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Width="108" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF45AAF2"/>
+                    <Label x:Name="infolabel4" Content="-" HorizontalAlignment="Left" Margin="292,216,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="15" Width="108" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF45AAF2"/>
+                    <Label x:Name="infolabel5" Content="-" HorizontalAlignment="Left" Margin="292,321,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Width="489" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF45AAF2"/>
+                    <Label x:Name="infolabel6" Content="-" HorizontalAlignment="Left" Margin="292,262,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Width="108" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF45AAF2"/>
+                    <Label x:Name="infolabel7" Content="-" HorizontalAlignment="Left" Margin="678,33,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Width="103" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF45AAF2"/>
+                    <Label x:Name="infolabel8" Content="-" HorizontalAlignment="Left" Margin="678,113,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Width="103" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF45AAF2"/>
+                    <Label x:Name="infolabel9" Content="-" HorizontalAlignment="Left" Margin="678,181,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Width="103" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF45AAF2"/>
+                    <Label x:Name="infolabel10" Content="-" HorizontalAlignment="Left" Margin="678,260,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Width="103" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF45AAF2"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="2 задание" BorderBrush="{x:Null}">
+                <Grid Background="White">
+                    <!--normal gauge-->
+                    <lvc:Gauge x:Name="uiTotalPhys" Grid.Row="0" Grid.Column="0" Margin="93,269,0,0"
+                   Uses360Mode="False"
+                   From="0" To="100" Value="{DynamicResource GaugeValue1}" HorizontalAlignment="Left" Width="156" Height="100" VerticalAlignment="Top" />
+                    <Label x:Name="label" Content="Загрузка физ. памяти, %" HorizontalAlignment="Left" Margin="81,394,0,0" VerticalAlignment="Top" Height="27" Width="180" Foreground="White" Background="#FF45AAF2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    <TextBlock x:Name="textBlock_Copy19" HorizontalAlignment="Left" Margin="93,431,0,0" Text="TotalPhys" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="207" ToolTip="Общий объем физической памяти в байтах"/>
+                    <TextBlock x:Name="textBlock_Copy20" HorizontalAlignment="Left" Margin="93,455,0,0" Text="AvailPhys" TextWrapping="Wrap" VerticalAlignment="Top" Height="18" Width="207" ToolTip="Объем доступной физической памяти в байтах"/>
+                    <TextBlock x:Name="textBlock_Copy21" HorizontalAlignment="Left" Margin="540,431,0,0" Text="TotalPageFile" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="201" ToolTip="Размер файла подкачки в байтах"/>
+                    <TextBlock x:Name="textBlock_Copy22" HorizontalAlignment="Left" Margin="540,454,0,0" Text="AvailPageFile" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="201" ToolTip="Доступный объем байтов в файле подкачки"/>
+                    <TextBlock x:Name="textBlock_Copy23" HorizontalAlignment="Left" Margin="327,431,0,0" Text="TotalVirtual" TextWrapping="Wrap" VerticalAlignment="Top" Height="18" Width="204" ToolTip="Общий объем виртуальной памяти в байтах"/>
+                    <TextBlock x:Name="textBlock_Copy24" HorizontalAlignment="Left" Margin="327,455,0,0" Text="AvailVirtual" TextWrapping="Wrap" VerticalAlignment="Top" Height="18" Width="204" ToolTip="Объем доступной виртуальной памяти"/>
+                    <TextBlock x:Name="textBlock_Copy25" HorizontalAlignment="Left" Margin="327,478,0,0" Text="AvailExtendedVirtual" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="204" ToolTip="Объем незарезервированной памяти в расширенной части виртуальной памяти в байтах"/>
+                    <lvc:Gauge x:Name="uiTotalPhys_Copy" Margin="0,271,0,0"
+                        Uses360Mode="False"
+                        From="0" To="100" Value="{DynamicResource GaugeValue2}" HorizontalAlignment="Center" Width="156" Height="102" VerticalAlignment="Top" />
+                    <lvc:Gauge x:Name="uiTotalPhys_Copy1" Grid.Row="0" Grid.Column="0" Margin="540,269,0,0"
+                        Uses360Mode="False"
+                        From="0" To="100" Value="{DynamicResource GaugeValue3}" HorizontalAlignment="Left" Width="156" Height="100" VerticalAlignment="Top" />
+                    <Label x:Name="label_Copy2" Content="Загрузка вирт. памяти, %" HorizontalAlignment="Center" Margin="0,393,0,0" VerticalAlignment="Top" Height="28" Width="180" Foreground="White" Background="#FF45AAF2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    <Label x:Name="label_Copy3" Content="Загрузка файла подкачки, %" HorizontalAlignment="Left" Margin="528,393,0,0" VerticalAlignment="Top" Height="28" Width="180" Foreground="White" Background="#FF45AAF2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    <lvc:Gauge x:Name="uiTotalPhys_Copy2" Grid.Row="0" Margin="0,39,0,0"
+                        Uses360Mode="False"
+                        From="0" To="100" Value="{DynamicResource GaugeValue4}" HorizontalAlignment="Center" Width="248" Height="166" VerticalAlignment="Top" />
+                    <Label x:Name="label_Copy" Content="Процент используемой памяти" HorizontalAlignment="Center" Margin="0,210,0,0" VerticalAlignment="Top" Height="33" Width="298" Foreground="White" Background="#FF45AAF2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    <Rectangle HorizontalAlignment="Left" Height="178" Margin="286,300,0,0" VerticalAlignment="Top" Width="1" Fill="#FFCACACA" RenderTransformOrigin="0.5,0.5">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="-1"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle HorizontalAlignment="Left" Height="178" Margin="510,300,0,0" VerticalAlignment="Top" Width="1" Fill="#FFCACACA" RenderTransformOrigin="0.5,0.5">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="-1"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle HorizontalAlignment="Left" Height="79" Margin="22,26,0,0" Stroke="#FF27AE60" VerticalAlignment="Top" Width="215"/>
+                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="22,39,0,0" Text="Получение детальной информации о состоянии памяти компьютера с помощью GlobalMemoryStatus" TextWrapping="Wrap" VerticalAlignment="Top" Width="215" Height="66" Padding="7,7,7,7" FontSize="11" TextAlignment="Justify"/>
+                    <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="29,16,0,0" Text="Комментарий" TextWrapping="Wrap" VerticalAlignment="Top" Background="#FF27AE60" Foreground="White" Width="97" TextAlignment="Center" Padding="0,2,0,0" Height="23"/>
+                </Grid>
+
+            </TabItem>
+
+            <TabItem Header="3 задание" BorderBrush="{x:Null}">
+
+                <Grid>
+                    <ListBox x:Name="listblock" Margin="0,55,0,0" Visibility="Hidden" >
+                    </ListBox>
+                    <DataGrid x:Name="dataGrid" Margin="10,41,10,10" AutoGenerateColumns="True" ItemsSource="{Binding processmap}" />
+
+                    <Label x:Name="label1" Content="Название процесса (напр : uTorrent.exe): " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="250,14,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged"/>
+                    <Label x:Name="label2" Content="" HorizontalAlignment="Left" Margin="375,10,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+
+
+
+        </TabControl>
+
+    </Grid>
+</Window>

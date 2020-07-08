@@ -1,0 +1,15 @@
+release/main.o
+release/system_info.o
+release/colors.o
+release/metrics.o
+release/settings.o
+release/etc.o
+release/settings2.o
+release/clock.o
+release/moc_system_info.o
+release/moc_colors.o
+release/moc_metrics.o
+release/moc_settings.o
+release/moc_etc.o
+release/moc_settings2.o
+release/moc_clock.o

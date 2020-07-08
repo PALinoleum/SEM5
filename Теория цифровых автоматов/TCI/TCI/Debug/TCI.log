@@ -1,0 +1,23 @@
+﻿  Source.cpp
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(95,31): warning C4101: u5: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(96,111): warning C4101: not_f: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(96,95): warning C4101: not_v3: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(96,63): warning C4101: not_u1: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(95,47): warning C4101: v3: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(95,35): warning C4101: u6: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(96,39): warning C4101: not_x5: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(95,11): warning C4101: z2: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(96,31): warning C4101: not_x4: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(96,15): warning C4101: not_x2: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(99,7): warning C4101: save: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(96,103): warning C4101: not_v4: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(96,87): warning C4101: not_v2: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(96,71): warning C4101: not_u2: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(96,47): warning C4101: not_z1: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(96,7): warning C4101: not_x1: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(95,51): warning C4101: v4: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(96,79): warning C4101: not_v1: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(96,55): warning C4101: not_z2: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(96,23): warning C4101: not_x3: неиспользованная локальная переменная
+C:\Users\D4rkn\source\repos\TCI\TCI\Source.cpp(515,7): warning C4101: tmp: неиспользованная локальная переменная
+  TCI.vcxproj -> C:\Users\D4rkn\source\repos\TCI\Debug\TCI.exe

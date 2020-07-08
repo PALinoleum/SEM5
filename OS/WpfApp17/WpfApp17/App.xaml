@@ -1,0 +1,15 @@
+﻿<Application x:Class="WpfApp17.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfApp17"
+             StartupUri="MainWindow.xaml"
+    xmlns:System="clr-namespace:System;assembly=System.Runtime">
+    <Application.Resources>
+
+        <System:Double x:Key="GaugeValue1">0</System:Double>
+        <System:Double x:Key="GaugeValue2">0</System:Double>
+        <System:Double x:Key="GaugeValue3">0</System:Double>
+        <System:Double x:Key="GaugeValue4">0</System:Double>
+
+    </Application.Resources>
+</Application>
